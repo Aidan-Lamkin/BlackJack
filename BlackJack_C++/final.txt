@@ -1,0 +1,27 @@
+Title: Aidan Lamkin Blackjack Game
+
+Problem Description: My project allows the user to play against the computer in a game of blackjack. The player can play
+    for as many rounds as they would like or until they run out of chips to bet. The player can also bet chips every
+    round and is a good measurement on how the player did while playing the game. This game of blackjack is played with
+    one deck of cards that is reset after every round.
+
+Program Documentation: The user has to input their desired move, how much they would like to bet, and whether or not
+    they would like to play another round or quit. Every time a user is prompted to enter an answer, you either type out
+    your next move (play, hit, stay, doubledown,  etc.) or you enter a number for an ace value or bet value. If an invalid input is
+    given the user will be prompted again and the previous input will not impact the game. All inputs are not case
+    sensitive.
+
+Tests: 1. If user inputs hat instead of hit for next move, the user will be prompted again
+       2. If user enters the value of an ace to be 2, the user will be prompted again
+       3. If user enters 5 chips for current bet but they only have 3, they will be prompted again
+       4. If user enters -3 chips for bet, they will be prompted again
+       5. If user wishes to doubledown but does not have enough chips to do so, they will be denied and asked to enter
+       their next move
+       6. If user inputs 4 when wanting to play next round, they will be prompted again
+       7. If user inputs they want to split but does not have enough chips to do so, they will be denied and the game
+       will continue with one hand
+
+Reflections: This project has taught me the importance of ordering code and functions properly and to add one feature
+    at a time when making larger projects. I would find that after I had a basic blackjack game setup without betting
+    or splitting, I had to pay very close attention to how I implemented those features to work with every possible
+    player choice and every game outcome.

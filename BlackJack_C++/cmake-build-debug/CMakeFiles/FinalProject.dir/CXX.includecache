@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aidan/Documents/FinalProject/HandofCards.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+functions.h
+/Users/aidan/Documents/FinalProject/functions.h
+
+/Users/aidan/Documents/FinalProject/functions.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+functions.h
+/Users/aidan/Documents/FinalProject/functions.h
+
+/Users/aidan/Documents/FinalProject/main.cpp
+iostream
+-
+vector
+-
+string
+-
+functions.h
+/Users/aidan/Documents/FinalProject/functions.h
+HandofCards.h
+/Users/aidan/Documents/FinalProject/HandofCards.h
+
